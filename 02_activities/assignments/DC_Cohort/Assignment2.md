@@ -56,7 +56,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+The store can implement the CUSTOMER_ADDRESS table in two ways. The overwrite approach (Type 1) stores only the current address for each customer, replacing old data when an update occurs. In contrast, the retain changes approach (Type 2) keeps a full history of all addresses by adding new records with validity dates whenever a customer’s address changes, preserving past information.
 ```
 
 ***
@@ -191,5 +191,6 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+The given article titled "Neural nets are just people all the way down." by V Boykis describes important ethical considerations related to the training of neural networks and large language models. Although neural networks and large language models appear autonomous, they rely heavily on human labour. Millions of workers label datasets, moderate content, and curate information so that the models can learn. Ethical concerns arise around fair wages, working conditions, and invisibility of this labour, especially when AI is marketed as “self-sufficient” while humans do the bulk of the work. This article reminded me of something I recently learned - even simple "Are you a robot?" CAPTCHA prompts are a form of hidden labour, as the way humans answer these tests is collected and used to help train large language models and other AI systems. This form of hidden labour raises concerns related to consent and compensation. Another important consideration is the human judgment required to make these decisions, which introduces bias into AI systems and affects how they interpret the world. Decisions about labeling, moderating content, and defining categories reflect human values and assumptions, meaning that AI outputs can reproduce societal inequalities. This underscores that neural networks are not neutral or fully automated. They are sociotechnical systems shaped by the labor, judgments, and decisions of the people who build and maintain them, making transparency, accountability, and ethical oversight essential in AI development. This highlights the importance of considering the social and ethical dimensions of AI, not just its technical capabilities. As AI systems continue to proliferate, understanding the human labor, judgment, and biases embedded in them is crucial to developing fair, responsible, and trustworthy technology.
+
 ```
